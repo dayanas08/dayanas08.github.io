@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículum Vitae - Dayana Ordoñez</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <img src="foto.png" alt="Foto de perfil">
-            <h1>Dayana Ordoñez</h1>
-            <p>Profesión | Especialidad</p>
-        </div>
+  <div class="container">
+    <header class="header">
+      <img src="foto.png" alt="Foto de Dayana Ordoñez" class="perfil" />
+      <h1>Dayana Ordoñez</h1>
+      <p class="titulo">Estudiante de Desarrollo de Software</p>
+      <button onclick="mostrarMensaje()">Contáctame</button>
+    </header>
 
-        <div class="section">
-            <h2>Información Personal</h2>
-            <p><strong>Teléfono:</strong> +593 0956 789</p>
-            <p><strong>Email:</strong> dayana.o08@gmail.com</p>
-            <p><strong>Dirección:</strong> Quito, Ecuador</p>
-        </div>
+    <section class="section">
+      <h2>Información Personal</h2>
+      <ul>
+        <li><strong>Teléfono:</strong> +593 0956 789</li>
+        <li><strong>Email:</strong> dayana.o08@gmail.com</li>
+        <li><strong>Dirección:</strong> Quito, Ecuador</li>
+      </ul>
+    </section>
 
-        <div class="section">
-            <h2>Experiencia Laboral</h2>
-            <p><strong>Empresa XYZ</strong> - Puesto (Año - Año)</p>
-            <p>Descripción breve de tus responsabilidades y logros.</p>
-        </div>
+    <section class="section">
+      <h2>Experiencia Laboral</h2>
+      <article>
+        <h3>Restaurante Buen Sabor</h3>
+        <p><strong>Puesto:</strong> Mesera y Cajera (2023 - 2024)</p>
+        <p>Brindé atención al cliente, manejé caja y coordiné pedidos con cocina.</p>
+      </article>
+      <article>
+        <h3>Marketing Freelance</h3>
+        <p><strong>Rol:</strong> Community Manager</p>
+        <p>Creación de contenido y gestión de redes sociales para pequeñas marcas.</p>
+      </article>
+    </section>
 
-        <div class="section">
-            <h2>Educación</h2>
-            <p><strong>Universidad ABC</strong> - Carrera (Año - Año)</p>
-            <p>Detalles sobre la formación académica.</p>
-        </div>
+    <section class="section">
+      <h2>Educación</h2>
+      <article>
+        <h3>Instituto Tecnológico</h3>
+        <p><strong>Carrera:</strong> Desarrollo de Software (En curso)</p>
+        <p>Formación en programación, diseño web y lógica computacional.</p>
+      </article>
+    </section>
 
-        <div class="section">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Habilidad 1</li>
-                <li>Habilidad 2</li>
-                <li>Habilidad 3</li>
-            </ul>
-        </div>
-    </div>
-    <script src="cv.js"></script>
+    <section class="section">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Diseño de contenido para redes</li>
+        <li>Atención al cliente y trabajo en equipo</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="cv.js"></script>
 </body>
 </html>
+
