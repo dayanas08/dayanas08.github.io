@@ -100,11 +100,11 @@ footer {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 40px;
-  background-color: #fff; /* por si no carga imagen */
+  background-color: #fff; 
 }
 
 .banner-fondo {
-  background-image: url('banner.jpg'); /* Cambia a tu imagen */
+  background-image: url('banner.jpg'); 
   background-size: cover;
   background-position: center;
   height: 250px;
