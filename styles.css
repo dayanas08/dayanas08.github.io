@@ -92,7 +92,37 @@ footer {
 .collage img:hover {
   transform: scale(1.05);
 }
-.foto3.jpg {
+.foto3 {
   margin-top: 20px;
 }
+.cabecera {
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  background-color: #fff; /* por si no carga imagen */
+}
+
+.banner-fondo {
+  background-image: url('banner.jpg'); /* Cambia a tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  border-radius: 0 0 40px 40px;
+}
+
+.foto-central {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background-color: #fff;
+}
+
 
