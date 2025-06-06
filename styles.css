@@ -1,51 +1,44 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fdf6f0;
   margin: 0;
-  padding: 0;
-  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fce4ec, #f3e5f5);
+  color: #444;
 }
 
-.container {
-  max-width: 800px;
+.main-container {
+  max-width: 1000px;
   margin: auto;
-  background-color: #fff5f8;
   padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px #f3d9d9;
-}
-
-.header {
-  text-align: center;
-  background-color: #ffe8ec;
-  padding: 20px;
-  border-radius: 15px;
-}
-
-.perfil {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #f5b4c5;
-}
-
-.titulo {
-  font-size: 1.2em;
-  color: #b85c8a;
-  margin-bottom: 10px;
-}
-
-.section {
-  margin-top: 25px;
-  background-color: #fff;
-  padding: 15px;
-  border-left: 5px solid #f5b4c5;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
   border-radius: 10px;
 }
 
-.section h2 {
-  color: #cc6688;
+header {
+  text-align: center;
+  background-color: #f8bbd0;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  color: #333;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+section {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+h2 {
+  color: #c2185b;
+  border-left: 4px solid #c2185b;
+  padding-left: 10px;
 }
 
 ul {
@@ -53,17 +46,21 @@ ul {
   padding-left: 20px;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #f5b4c5;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-top: 10px;
+a {
+  color: #ab47bc;
+  text-decoration: none;
 }
 
-button:hover {
-  background-color: #e294ac;
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background-color: #f8bbd0;
+  border-radius: 0 0 10px 10px;
+  color: #333;
 }
 
