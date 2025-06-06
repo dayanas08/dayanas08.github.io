@@ -92,4 +92,7 @@ footer {
 .collage img:hover {
   transform: scale(1.05);
 }
+.foto3.jpg {
+  margin-top: 20px;
+}
 
