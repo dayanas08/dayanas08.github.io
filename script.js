@@ -1,5 +1,3 @@
-
-function mostrarAlerta() {
-  alert("¡Gracias por visitar mi CV!");
+function mostrarMensaje() {
+  alert("¡Gracias por tu interés! Puedes contactarme al email: dayana.o08@gmail.com");
 }
-
