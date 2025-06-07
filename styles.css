@@ -1,9 +1,12 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #fce4ec, #f3e5f5);
-  color: #444;
+  background-color: #fff8f6;
+  color: #333;
 }
+
 
 .main-container {
   max-width: 1000px;
