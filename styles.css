@@ -104,11 +104,13 @@ footer {
 }
 
 .banner-fondo {
-  background-image: url('banner.jpg'); 
+  width: 100vw; /* Ancho de la pantalla */
+  height: 300px; /* Alto */
+  background-image: url('banner.jpg');
   background-size: cover;
   background-position: center;
-  height: 100px;
-  border-radius: 60px 60px 60px 60px;
+  border-radius: 0 0 60px 60px;
+  position: relative;
 }
 
 .foto-central {
