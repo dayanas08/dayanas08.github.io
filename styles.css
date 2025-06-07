@@ -9,12 +9,8 @@ body {
 
 
 .main-container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  border-radius: 10px;
+  width: 100%;
+  padding: 0;
 }
 
 header {
@@ -68,10 +64,10 @@ footer {
 }
 
 .galeria {
-  padding: 20px;
   background-color: #fce4ec;
   border-radius: 10px;
   text-align: center;
+  padding: 40px 60px;
 }
 
 .collage {
@@ -80,6 +76,7 @@ footer {
   justify-content: center;
   gap: 15px;
   margin-top: 15px;
+  padding: 40px 60px;
 }
 
 .collage img {
@@ -90,19 +87,23 @@ footer {
   border: 3px solid #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  padding: 40px 60px;
 }
 
 .collage img:hover {
   transform: scale(1.05);
+  padding: 40px 60px;
 }
 .foto3 {
   margin-top: 20px;
+  padding: 40px 60px;
 }
 .cabecera {
   position: relative;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 40px;
+  padding: 40px 60px;
   background-color: #fff; 
 }
 
@@ -114,6 +115,7 @@ footer {
   background-position: center;
   border-radius: 0 0 60px 60px;
   position: relative;
+  padding: 40px 60px;
 }
 
 .foto-central {
@@ -128,6 +130,7 @@ footer {
   transform: translateX(-50%);
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   background-color: #fff;
+  padding: 40px 60px;
 }
 
 
