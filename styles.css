@@ -9,9 +9,11 @@ body {
 
 
 .main-container {
-  width: 100%;
-  padding: 0;
+  padding: 100px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
 
 header {
   text-align: center;
