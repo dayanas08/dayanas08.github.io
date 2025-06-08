@@ -36,6 +36,10 @@ section {
   border-bottom: 1px solid #eee;
 }
 
+h1 {
+  transition: all 1s;
+}
+
 h2 {
   color: #c2185b;
   border-left: 4px solid #c2185b;
