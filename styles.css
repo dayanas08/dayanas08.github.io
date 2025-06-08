@@ -82,19 +82,20 @@ footer {
 }
 
 .collage img {
-  width: 200px;
-  height: 150px;
+  width: 250px;           /* ancho*/
+  height: 180px;          /*alto */
   object-fit: cover;
-  border-radius: 10px;
-  border: 3px solid #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-  padding: 30px 40px;
+  border-radius: 20px;    /* bordes */
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .collage img:hover {
-  transform: scale(1.05);
-  padding: 30px 40px;
+  transform: scale(1.05); /* efecto, mouse */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
 }
 .foto3 {
   margin-top: 20px;
