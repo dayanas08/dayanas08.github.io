@@ -24,6 +24,18 @@
         <li><strong>Dirección:</strong> Quito, Ecuador</li>
       </ul>
     </section>
+     <p id="frase" style="text-align:center; font-style: italic;"></p>
+
+      <script>
+        const frases = [
+          "Nunca dejes de aprender ✨",
+          "Haz lo que amas y hazlo con pasión 💻",
+          "La creatividad es tu superpoder 🌈",
+          "Cada línea de código es una oportunidad 💡"
+        ];
+            document.getElementById("frase").innerText =
+              frases[Math.floor(Math.random() * frases.length)];
+</script>
 
     <section class="experience">
       <h2>Experiencia Laboral</h2>
@@ -42,6 +54,15 @@
       <p><strong>Colegio "Dr. Ricardo Cornejo Rosales</strong> – Bachiller en Ciencias (2021)</p>
       <p><strong>Instituto Tecnológico Universitario Cordillera</strong> – Desarrollo de Software (2024 - En curso)</p>
     </section>
+      <button onclick="cambiarColor()">Cambiar color de fondo</button>
+      <script>
+       function cambiarColor() {
+       const colores = ["#ffe4e1", "#fceaff", "#e6f7ff", "#fff0f5"];
+       const fondo = document.body;
+      fondo.style.backgroundColor =
+      colores[Math.floor(Math.random() * colores.length)];
+       }
+      </script>
 
     <section class="skills">
       <h2>Habilidades</h2>
@@ -75,6 +96,19 @@
 
   <script src="script.js"></script>
 </body>
+  <script>
+  window.addEventListener("load", () => {
+    const titulo = document.querySelector("h1");
+    titulo.style.opacity = 0;
+    titulo.style.transform = "translateY(-20px)";
+    setTimeout(() => {
+      titulo.style.transition = "all 1s";
+      titulo.style.opacity = 1;
+      titulo.style.transform = "translateY(0)";
+    }, 300);
+  });
+</script>
+
 </html>
 
 
