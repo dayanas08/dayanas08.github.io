@@ -11,7 +11,6 @@ body {
 .main-container {
   padding: 100px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 
@@ -100,7 +99,6 @@ footer {
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
-}
 .foto3 {
   margin-top: 20px;
   padding: 30px 40px;
@@ -115,23 +113,24 @@ footer {
   background-image: url('banner.jpg');
   background-size: cover;
   background-position: center;
-  height: 360px; 
+  height: 250px;
   width: 100%;
-  border-radius: 0 0 50% 50%;
-
+  border-radius: 0; 
+}
 
 .foto-central {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   border: 5px solid white;
   object-fit: cover;
   position: absolute;
-  top: 280px; 
+  top: 200px;
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 
 
