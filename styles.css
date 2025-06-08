@@ -101,29 +101,25 @@ footer {
 .cabecera {
   position: relative;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 40px;
-  padding: 30px 40px;
-  background-color: #fff; 
+  padding-bottom: 80px; 
 }
 
 .banner-fondo {
-  background-image: url('banner.jpg'); 
+  background-image: url('banner.jpg');
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 360px; 
   width: 100%;
-  border-radius: 0; 
-}
+
 
 .foto-central {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   border: 5px solid white;
   object-fit: cover;
   position: absolute;
-  top: 220px; /* Puedes ajustar este valor */
+  top: 280px; 
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
