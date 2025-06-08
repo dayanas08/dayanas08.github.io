@@ -15,7 +15,15 @@
   <p>Estudiante de Desarrollo de Software</p>
   <p>Instituto Tecnológico Universitario Cordillera</p>
 </header>
-
+  <button onclick="cambiarColor()">Cambiar color de fondo</button>
+      <script>
+       function cambiarColor() {
+       const colores = ["#ffe4e1", "#fceaff", "#e6f7ff", "#fff0f5"];
+       const fondo = document.body;
+      fondo.style.backgroundColor =
+      colores[Math.floor(Math.random() * colores.length)];
+       }
+      </script>
     <section class="info">
       <h2>Información Personal</h2>
       <ul>
@@ -54,16 +62,7 @@
       <p><strong>Colegio "Dr. Ricardo Cornejo Rosales</strong> – Bachiller en Ciencias (2021)</p>
       <p><strong>Instituto Tecnológico Universitario Cordillera</strong> – Desarrollo de Software (2024 - En curso)</p>
     </section>
-      <button onclick="cambiarColor()">Cambiar color de fondo</button>
-      <script>
-       function cambiarColor() {
-       const colores = ["#ffe4e1", "#fceaff", "#e6f7ff", "#fff0f5"];
-       const fondo = document.body;
-      fondo.style.backgroundColor =
-      colores[Math.floor(Math.random() * colores.length)];
-       }
-      </script>
-
+    
     <section class="skills">
       <h2>Habilidades</h2>
       <ul>
