@@ -12,19 +12,16 @@ body {
   padding: 100px;
   margin: 0 auto;
 }
-
-
 header {
   text-align: center;
   background-color: #f8bbd0;
-  padding: 100px 20px 20px 20px;
+  padding: 100px 20px 20px;
+  margin-top: 0; 
   border-radius: 10px;
-  margin-top: -60px; 
   color: #333;
   position: relative;
   z-index: 1;
 }
-
 
 .profile-img {
   width: 120px;
@@ -88,47 +85,46 @@ footer {
 }
 
 .collage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* agranda a 250px mínimo */
   gap: 15px;
-  margin-top: 15px;
-  padding: 30px 40px;
+  padding: 20px;
 }
 
 .collage img {
-  width: 250px;           /* ancho*/
-  height: 180px;          /*alto */
-  object-fit: cover;
-  border-radius: 20px;    /* bordes */
-  margin: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
+/* Efecto al pasar el mouse (opcional) */
 .collage img:hover {
-  transform: scale(1.05); /* efecto, mouse */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  transform: scale(1.05);
 }
-
 .collage img:nth-child(3) {
   object-position: center top; /* centra la imagen desde arriba */
 }
+/* banner + foto*/
 .cabecera {
   position: relative;
   text-align: center;
-  margin-bottom: 80px; /* reduce el espacio debajo del banner */
+  margin-bottom: 0; /* eliminamos espacio debajo */
 }
 
+/* Imagen del banner */
 .banner-fondo {
-  background-image: url('banner.jpg');
+  background-image: url('banner.jpg'); /* o tu imagen cargada */
   background-size: cover;
   background-position: center;
   height: 220px;
   width: 100%;
-  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
+/* Imagen redonda centrada */
 .foto-central {
   width: 140px;
   height: 140px;
@@ -136,11 +132,14 @@ footer {
   border: 5px solid white;
   object-fit: cover;
   position: absolute;
-  bottom: -70px; /* NUEVO: se coloca hacia abajo respecto al banner */
+  bottom: -70px;
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  z-index: 2;
 }
+
 
 
 
