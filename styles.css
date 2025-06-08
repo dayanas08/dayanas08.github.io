@@ -17,10 +17,14 @@ body {
 header {
   text-align: center;
   background-color: #f8bbd0;
-  padding: 20px;
-  border-radius: 10px 10px 0 0;
+  padding: 100px 20px 20px 20px;
+  border-radius: 10px;
+  margin-top: -60px; 
   color: #333;
+  position: relative;
+  z-index: 1;
 }
+
 
 .profile-img {
   width: 120px;
@@ -35,9 +39,17 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-h1 {
-  transition: all 1s;
+header h1 {
+  font-size: 42px;
+  margin-top: 20px;
+  color: #880e4f;
 }
+
+header p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
 
 h2 {
   color: #c2185b;
@@ -99,23 +111,22 @@ footer {
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
-.foto3 {
-  margin-top: 20px;
-  padding: 30px 40px;
+.collage img:nth-child(3) {
+  object-position: center top; /* centra la imagen desde arriba */
 }
 .cabecera {
   position: relative;
   text-align: center;
-  padding-bottom: 120px; 
+  margin-bottom: 80px; /* reduce el espacio debajo del banner */
 }
 
 .banner-fondo {
   background-image: url('banner.jpg');
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 220px;
   width: 100%;
-  border-radius: 0; 
+  border-radius: 0;
 }
 
 .foto-central {
@@ -125,11 +136,12 @@ footer {
   border: 5px solid white;
   object-fit: cover;
   position: absolute;
-  top: 200px;
+  bottom: -70px; /* NUEVO: se coloca hacia abajo respecto al banner */
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 
 
