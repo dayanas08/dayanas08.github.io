@@ -116,7 +116,7 @@ footer {
   background-image: url('banner.jpg'); 
   background-size: cover;
   background-position: center;
-  height: 350px;
+  height: 450px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -125,8 +125,8 @@ footer {
 
 /* Imagen redonda centrada */
 .foto-central {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   border: 5px solid white;
   object-fit: cover;
